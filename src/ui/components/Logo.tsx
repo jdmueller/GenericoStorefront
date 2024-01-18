@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { LinkWithChannel } from "../atoms/LinkWithChannel";
 
-const companyName = "ACME";
+const companyName = "GENERICO";
 
 export const Logo = () => {
 	const pathname = usePathname();
@@ -18,7 +19,7 @@ export const Logo = () => {
 	return (
 		<div className="flex items-center font-bold">
 			<LinkWithChannel aria-label="homepage" href="/">
-				{companyName}
+				<Image alt={companyName} height={106} width={130} src={"/Generico-EC.svg"} />
 			</LinkWithChannel>
 		</div>
 	);
