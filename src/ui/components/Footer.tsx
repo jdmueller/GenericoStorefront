@@ -74,7 +74,7 @@ export async function Footer({ channel }: { channel: string }) {
 				</div>
 
 				{channels?.channels && (
-					<div className="mb-4 text-neutral-500">
+					<div className="mb-4 text-green-600">
 						<label>
 							<span className="text-sm">Change currency:</span> <ChannelSelect channels={channels.channels} />
 						</label>
