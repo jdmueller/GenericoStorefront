@@ -17,12 +17,12 @@ export async function Footer({ channel }: { channel: string }) {
 					// and use app token instead
 					Authorization: `Bearer ${process.env.SALEOR_APP_TOKEN}`,
 				},
-		  })
+			})
 		: null;
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className="border-neutral-300 bg-neutral-50">
+		<footer className="border-green-600 bg-green-400">
 			<div className="mx-auto max-w-7xl px-4 lg:px-8">
 				<div className="grid grid-cols-3 gap-8 py-16">
 					{footerLinks.menu?.items?.map((item) => {
