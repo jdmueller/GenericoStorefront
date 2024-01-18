@@ -74,14 +74,14 @@ export async function Footer({ channel }: { channel: string }) {
 				</div>
 
 				{channels?.channels && (
-					<div className="mb-4 text-green-600">
+					<div className="mb-4 text-neutral-500">
 						<label>
 							<span className="text-sm">Change currency:</span> <ChannelSelect channels={channels.channels} />
 						</label>
 					</div>
 				)}
 
-				<div className="flex flex-col justify-between border-t border-neutral-200 py-10 sm:flex-row">
+				<div className="flex flex-col justify-between border-t border-green-600 py-10 sm:flex-row">
 					<p className="text-sm text-neutral-500">
 						Copyright &copy; {currentYear} | Genérico Ecuador. All Rights Reserved.
 					</p>
