@@ -21,7 +21,7 @@ export default function CheckoutPage({
 
 	return (
 		<div className="min-h-dvh bg-white">
-			<section className="pt6 mx-auto flex min-h-dvh max-w-7xl flex-col">
+			<section className="mx-auto flex min-h-dvh max-w-7xl flex-col pt-4">
 				<div className="flex items-center font-bold">
 					<a aria-label="homepage" href="/">
 						<Image alt={companyName} height={106} width={130} src={"/Generico-EC.svg"} />
