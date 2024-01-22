@@ -1,8 +1,11 @@
 import { invariant } from "ts-invariant";
+import Image from "next/image";
 import { RootWrapper } from "./pageWrapper";
 
+const companyName = "GENERICO";
+
 export const metadata = {
-	title: "Checkout · Saleor Storefront example",
+	title: "Checkout · Genérico Ecuador",
 };
 
 export default function CheckoutPage({
@@ -21,7 +24,7 @@ export default function CheckoutPage({
 			<section className="mx-auto flex min-h-dvh max-w-7xl flex-col p-8">
 				<div className="flex items-center font-bold">
 					<a aria-label="homepage" href="/">
-						ACME
+						<Image alt={companyName} height={106} width={130} src={"/Generico-EC.svg"} />
 					</a>
 				</div>
 				<h1 className="mt-8 text-3xl font-bold text-neutral-900">Checkout</h1>

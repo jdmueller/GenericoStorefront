@@ -2,8 +2,8 @@ import { type ReactNode } from "react";
 import { AuthProvider } from "@/ui/components/AuthProvider";
 
 export const metadata = {
-	title: "Saleor Storefront example",
-	description: "Starter pack for building performant e-commerce experiences with Saleor.",
+	title: "Checkout | Genérico Ecuador",
+	description: "CBD Products | CBD Oil, CBD Gummies, CBD Beer, CBD Coffee, CBD Creams.",
 };
 
 export default function RootLayout(props: { children: ReactNode }) {
